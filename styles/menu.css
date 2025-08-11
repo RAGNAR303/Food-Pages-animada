@@ -71,6 +71,10 @@
   margin-left: 10px;
 }
 
+#menu .btn-default {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 1200px) {
   #dishes {
     flex-wrap: wrap;

@@ -71,7 +71,7 @@
   margin-left: 10px;
 }
 
-#menu .btn-default {
+#menu > .btn-default {
   margin-top: 20px;
 }
 

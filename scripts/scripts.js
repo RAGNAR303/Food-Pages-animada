@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#mobile_btn").on("click", function () {
     $("#mobile-menu").toggleClass("active");
-    $("#mobile_btn").find("i").toggleClass("fa-x");
+    $("#mobile_btn").find("i").toggleClass("fa-bars  fa-xmark");
   });
   const sections = $("section");
   const navItems = $(".nav-item");
@@ -83,7 +83,6 @@ $(document).ready(function () {
     delay: 700,
     duration: 1000,
     distance: "10%",
-    reset: true,
   });
 });
 

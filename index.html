@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Food pages</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header>
+        <img src="styles/assets/wave2.svg" alt="">
+        <nav id="navbar">
+            <div>
+                <p id="nav-logo"><i class="fa-solid fa-burger"></i>FOOD</p>
+            </div>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+        </nav>
+        <div id="mobile-menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O Sabor vai até <span>voçê</span>
+                </h1>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores doloribus numquam voluptate
+                    repellendus, facilis quasi delectus nam ipsum, beatae magni nihil, reiciendis labore asperiores quos
+                    in neque ab iure. Recusandae.
+                </p>
+                <div id="cta-buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+                    <a href="tel:+555555555555" id="fone-button">
+                        <button>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (11) 91234-5678
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="styles/assets/hero.png" alt="" id="hero-img">
+            </div>
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos <span>especialidades</span> </h3>
+            <div id="dishes">
+                <!--Pratos carregados com javascripts-->
+            </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <img src="styles/assets/chef.png" id="testimonial_chef" alt="chef-imagen">
+            <div id="testimonials-content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam <span>sobre nós</span>
+                </h3>
+                <div id="feedback">
+                    <div class="feedback">
+                        <img src="styles/assets/avatar.png" class="avatar" alt="feedback-avatar">
+                        <div class="feedback-content">
+                            <p class="feedback-name">
+                                Fulana
+                                <span>
+                                    ★★★★☆
+                                </span>
+                            </p>
+                            <p class="feedback-info">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, asperiores voluptas
+                                alias voluptatem harum minima quas laboriosam sunt cumque, iusto praesentium fugiat?
+                                Quaerat eveniet obcaecati aliquam qui omnis blanditiis odio!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="styles/assets/avatar.png" class="avatar" alt="feedback-avatar">
+                        <div class="feedback-content">
+                            <p class="feedback-name">
+                                Fulana
+                                <span>
+                                    ★★★★☆
+                                </span>
+                            </p>
+                            <p class="feedback-info">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, asperiores voluptas
+                                alias voluptatem harum minima quas laboriosam sunt cumque, iusto praesentium fugiat?
+                                Quaerat eveniet obcaecati aliquam qui omnis blanditiis odio!
+                            </p>
+                        </div>
+                    </div>
+                    <button class="btn-default">
+                        Ver mais avaliações
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="styles/assets/wave.svg" alt="">
+        <div id="footer_description">
+            <div id="footer_contact">
+                <h5>Endereço & Contatos</h5>
+                <p>Rua Jurema , N369</p>
+                <p>TEL: <a href="">(11)91234-5678</a></p>
+                <p class=""><i class="fa-solid fa-envelope"></i><a href="#">foodservices@email.com</a></p>
+            </div>
+
+            <div id="footer_redes">
+                <h5>Siga nossas redes:</h5>
+                <div class="social-media-buttons">
+
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2025 Thiago Gonçalves
+            </span>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

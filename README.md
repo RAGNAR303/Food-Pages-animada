@@ -1,7 +1,7 @@
 <h1> Food</h1> 
 <br>
 <br>
-<p>Pagina de divulgação para restaurante com animações criada para aprendizado. </p>
+<p>Pagina de divulgação para restaurante com animações e totalmente responsiva para mobile , criada para aprendizado. </p>
 <br>
 <br>
 <h1 >Tela de Home</h1> 
@@ -22,6 +22,18 @@
 <br>
 <h1>Footer</h1>
 <img width="3795" height="1618" alt="{8EC80035-5B0B-4FE5-83EB-5F41DA1E6EEC}" src="https://github.com/user-attachments/assets/60780891-fd4c-49f1-836f-75a1d13c36b1" />
+<br>
+<br>
+
+<h1>Versão Mobile</h1>
+<div style="display: flex">
+  <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/09405f02-d660-49d3-a11e-fe144e1278fc" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/6858df95-bb36-4249-ae77-d55ab98f1ff7" />
+  <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/23157c71-142c-4e7f-ba04-436c1efcf79c" />
+
+</div>
+
+
 
 
 🔗Link de Deploy:https://food-pages-animada.vercel.app/

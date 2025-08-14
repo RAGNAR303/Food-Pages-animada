@@ -2,6 +2,7 @@
 <br>
 <br>
 <p>Pagina de divulgação para restaurante com animações e totalmente responsiva para mobile , criada para aprendizado. </p>
+🔗Link de Deploy:https://food-pages-animada.vercel.app/
 <br>
 <br>
 <h1 >Tela de Home</h1> 
@@ -36,4 +37,4 @@
 
 
 
-🔗Link de Deploy:https://food-pages-animada.vercel.app/
+
